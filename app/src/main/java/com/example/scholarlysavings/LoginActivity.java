@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                 String email = userEmail.getText().toString();
                 String password = userPassword.getText().toString();
                 goMainActivity();
-                //loginUser(email, password);
+                loginUser(email, password);
             }
         });
 
@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i(TAG, "onClick SignUp button");
-                //goRegisterAccount();
+                goCreateAccount();
             }
         });
     }
@@ -81,10 +81,9 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
 
-    /*private void goRegisterAccount() {
-        Intent i = new Intent(this, RegisterAccount.class);
+    private void goCreateAccount() {
+        Intent i = new Intent(this, CreateAccountActivity.class);
         startActivity(i);
         finish();
     }
-     */
 }

@@ -10,8 +10,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:name=".ParseApplication"
         android:supportsRtl="true"
         android:theme="@style/Theme.ScholarlySavings">
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="true">

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2907692307692308" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2953125" />
