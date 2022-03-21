@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/scholarly_savings_logo__1_" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="cursive"
+        android:text="Scholarly Savings"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#6aa84f"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/ic_baseline_supervised_user_circle_24"
+        android:hint="Email"
+        android:textColor="#6aa84f"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:soundEffectsEnabled="true"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        android:textColor="#6aa84f"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="40dp"
+        android:text=" Login  " />
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up" />
+
+</LinearLayout>
