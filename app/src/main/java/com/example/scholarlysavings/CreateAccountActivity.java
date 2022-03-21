@@ -53,13 +53,13 @@ public class CreateAccountActivity extends AppCompatActivity {
                 if (e == null) {
                     Log.e(TAG, "Issue with Login", e);
                 }
-                goLoginActivity();
+                goQuestionnaire();
             }
         });
     }
 
-    private void goLoginActivity() {
-        Intent i = new Intent(this, LoginActivity.class);
+    private void goQuestionnaire() {
+        Intent i = new Intent(this, QuestionnaireActivity.class);
         startActivity(i);
         finish();
     }

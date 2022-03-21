@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionnaireActivity">
+
+
+    <ImageView
+        android:id="@+id/Logoiv"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/scholarly_savings_logo__1_" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Let's Get your Information" />
+
+    <TextView
+        android:id="@+id/Nametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter your Name:" />
+
+    <EditText
+        android:id="@+id/NameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Phonetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter your Phone Number:" />
+
+    <EditText
+        android:id="@+id/PhoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Collegetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter the College/ University you are attending: " />
+
+    <EditText
+        android:id="@+id/CollegeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="College/University"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Balancetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter your Account Balance:" />
+
+    <EditText
+        android:id="@+id/BalanceEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Account Balance"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Incometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter your Monthly Income:" />
+
+    <EditText
+        android:id="@+id/IncomeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Income"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Expensestv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enter your Monthly Expenses:" />
+
+    <EditText
+        android:id="@+id/ExpensesEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Expenses"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Nextbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Next" />
+
+</LinearLayout>
