@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CreateAccountActivity">
+    tools:context=".CreateAccountActivity"
+    android:background="#FFE184">
 
 
     <ImageView
@@ -47,5 +48,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Create" />
+        android:text="Create"
+        android:background="#174C4F"/>
 </LinearLayout>

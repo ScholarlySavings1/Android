@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="#FFE184">
 
     <ImageView
         android:id="@+id/logo"
@@ -60,7 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
         android:layout_marginTop="40dp"
-        android:text=" Login  " />
+        android:text=" Login  "
+        android:background="#174C4F"/>
 
     <Button
         android:id="@+id/createAccountButton"
@@ -68,6 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
         android:layout_marginTop="10dp"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        android:background="#174C4F"/>
 
 </LinearLayout>
