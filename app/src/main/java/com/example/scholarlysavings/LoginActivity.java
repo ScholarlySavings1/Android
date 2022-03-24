@@ -27,11 +27,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        /*if(ParseUser.getCurrentUser() != null) {
+        if (ParseUser.getCurrentUser() != null) {
             goMainActivity();
         }
-
-         */
 
         userEmail = findViewById(R.id.userEmail);
         userPassword = findViewById(R.id.userPassword);
@@ -42,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
                 Log.i(TAG, "onClick login button");
                 String email = userEmail.getText().toString();
                 String password = userPassword.getText().toString();
-                goMainActivity();
+                //goMainActivity();
                 loginUser(email, password);
             }
         });
@@ -72,7 +70,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-
 
 
     private void goMainActivity() {
