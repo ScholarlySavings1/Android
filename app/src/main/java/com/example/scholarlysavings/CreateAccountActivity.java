@@ -37,25 +37,25 @@ public class CreateAccountActivity extends AppCompatActivity {
         Createbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = Emailtv.getText().toString();
+                String username = Emailtv.getText().toString();
                 String password = Passwordtv.getText().toString();
-                newUser(email, password);
+                newUser(username, password);
             }
         });
     }
 
-    private void newUser(String email, String password) {
+    private void newUser(String username, String password) {
         ParseUser user = new ParseUser();
         user.setPassword(password);
-        user.setEmail(email);
+        user.setUsername(username);
         user.signUpInBackground(new SignUpCallback() {
             public void done(ParseException e) {
                 if (e == null) {
                     Log.e(TAG, "Issue with Login", e);
                 }
-                goQuestionnaire();
             }
         });
+        goQuestionnaire();
     }
 
     private void goQuestionnaire() {

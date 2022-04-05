@@ -13,6 +13,8 @@ public class UserInfo extends ParseObject{
     public static final String KEY_INCOME = "Income";
     public static final String KEY_EXPENSES = "Expenses";
     public static final String KEY_BALANCE = "Balance";
+    public static final String KEY_PASSWORD = "Password";
+    public static final String KEY_EMAIL = "Email";
     public static final String KEY_IMAGE = "Image";
     public static final String KEY_USER = "User";
 
@@ -41,6 +43,14 @@ public class UserInfo extends ParseObject{
     public void setBalance(String balance) { put(KEY_BALANCE, balance); }
 
     public String getBalance() {return getString(KEY_BALANCE); }
+
+    public void setPassword(String password) { put(KEY_PASSWORD, password); }
+
+    public String getPassword() {return getString(KEY_PASSWORD); }
+
+    public void setEmail(String email) { put(KEY_EMAIL, email); }
+
+    public String getEmail() {return getString(KEY_EMAIL); }
 
     public ParseFile getImage() { return getParseFile(KEY_IMAGE); }
 

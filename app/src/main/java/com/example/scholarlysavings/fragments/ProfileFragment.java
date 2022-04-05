@@ -66,8 +66,8 @@ public class ProfileFragment extends Fragment {
             @Override
             public void done(List<UserInfo> info, ParseException e) {
 
-                for (UserInfo infos : info) {
-                    Log.i(TAG, "Name: " + infos.getName() + ", Phone: " + infos.getPhone());
+                for (UserInfo information : info) {
+                    Log.i(TAG, "Name: " + information.getName() + ", Phone: " + information.getPhone());
                 }
                 allinfo.addAll(info);
                 adapter.notifyDataSetChanged();

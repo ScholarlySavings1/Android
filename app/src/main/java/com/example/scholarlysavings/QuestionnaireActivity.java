@@ -50,8 +50,6 @@ public class QuestionnaireActivity extends AppCompatActivity {
 
                 ParseUser currentUser = ParseUser.getCurrentUser();
                 UserInformation(name, college, phone, income, expenses, balance, currentUser);
-
-                goMainActivity();
             }
         });
     }
@@ -64,19 +62,20 @@ public class QuestionnaireActivity extends AppCompatActivity {
 
     private void UserInformation(String name, String college, String phone, String income, String expenses, String balance, ParseUser currentUser) {
         UserInfo info = new UserInfo();
+        info.setUser(currentUser);
         info.setName(name);
         info.setCollege(college);
-        //info.setPhone(phone);
+        info.setPhone(phone);
         info.setIncome(income);
         info.setBalance(balance);
         info.setExpenses(expenses);
-        info.setUser(currentUser);
-
         info.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
                 Log.e(TAG, "Error");
             }
         });
+
+        goMainActivity();
     }
 }
