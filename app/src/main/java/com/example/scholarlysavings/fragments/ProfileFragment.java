@@ -20,6 +20,7 @@ import com.example.scholarlysavings.UserInfo;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,6 +63,7 @@ public class ProfileFragment extends Fragment {
     public void queryProfile(){
         ParseQuery<UserInfo> query = ParseQuery.getQuery(UserInfo.class);
         query.include(UserInfo.KEY_USER);
+        query.whereEqualTo(UserInfo.KEY_USER, ParseUser.getCurrentUser());
         query.findInBackground(new FindCallback<UserInfo>() {
             @Override
             public void done(List<UserInfo> info, ParseException e) {
