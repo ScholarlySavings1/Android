@@ -28,13 +28,13 @@
         android:layout_marginTop="94dp"
         android:background="#FFE184"
         tools:context=".fragments.HomeFragment">
-<!--
+
         <com.github.mikephil.charting.charts.BarChart
             android:id="@+id/barChart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:ignore="MissingClass" />
-        -->
+
 
     </FrameLayout>
 </RelativeLayout>
