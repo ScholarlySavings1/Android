@@ -24,19 +24,19 @@
         android:text="Let's Get your Information" />
 
     <TextView
-        android:id="@+id/Nametv"
+        android:id="@+id/Emailtv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Enter your Name:" />
+        android:text="Enter your email:" />
 
     <EditText
-        android:id="@+id/NameEt"
+        android:id="@+id/EmailEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Email"
         android:inputType="textPersonName" />
 
     <TextView

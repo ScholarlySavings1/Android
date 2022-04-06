@@ -53,12 +53,12 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ViewHold
         private TextView tvExpenses;
         private ImageView ivProfile;
         private TextView tvEmail;
-        private TextView tvPassword;
+        public TextView tvPassword;
         private Button btnLogout;
 
         public ViewHolder(@NonNull View itemView){
             super(itemView);
-            tvName = itemView.findViewById(R.id.displayName);
+            tvName = itemView.findViewById(R.id.Usernametv);
             tvIncome = itemView.findViewById(R.id.tvIncome);
             tvMobilePhone = itemView.findViewById(R.id.tvMobilePhone);
             tvExpenses = itemView.findViewById(R.id.tvExpenses);
@@ -82,11 +82,11 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ViewHold
 
         public void bind(UserInfo userInfo) {
             tvMobilePhone.setText("Mobile Phone Number: " + userInfo.getPhone());
-            tvName.setText(userInfo.getName());
+            tvName.setText(userInfo.getUser().getUsername());
             tvIncome.setText("Income: " + userInfo.getIncome());
             tvExpenses.setText("Expenses: " + userInfo.getExpenses());
             tvEmail.setText("Email: " + userInfo.getEmail());
-            tvPassword.setText("Password: " + userInfo.getPassword());
+           // tvPassword.setText("Password: " + userInfo.getUser().getPassword());
             ParseFile image = userInfo.getImage();
             if (image != null){
                 Glide.with(context).load(image.getUrl()).into(ivProfile);

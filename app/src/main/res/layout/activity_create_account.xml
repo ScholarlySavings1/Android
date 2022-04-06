@@ -17,12 +17,12 @@
         app:srcCompat="@drawable/scholarly_savings_logo__1_" />
 
     <EditText
-        android:id="@+id/Emailtv"
+        android:id="@+id/Usernametv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Username"
         android:inputType="textPersonName" />
 
     <EditText

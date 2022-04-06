@@ -29,7 +29,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
-        Emailtv = findViewById(R.id.Emailtv);
+        Emailtv = findViewById(R.id.Usernametv);
         Passwordtv = findViewById(R.id.Passwordtv);
         Confirmtv = findViewById(R.id.Confirmtv);
         Createbtn = findViewById(R.id.Createbtn);

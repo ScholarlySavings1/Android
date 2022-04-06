@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Student/AndroidStudioProjects/Android/app/src/main/res/layout/activity_create_account.xml" value="0.22" />
+        <entry key="..\:/Users/Student/AndroidStudioProjects/Android/app/src/main/res/layout/activity_questionnaire.xml" value="0.25" />
+        <entry key="..\:/Users/Student/AndroidStudioProjects/Android/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Student/AndroidStudioProjects/Android/app/src/main/res/layout/item_home.xml" value="0.25" />
+        <entry key="..\:/Users/Student/AndroidStudioProjects/Android/app/src/main/res/layout/item_profile.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.31145833333333334" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2907692307692308" />

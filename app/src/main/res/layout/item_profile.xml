@@ -48,7 +48,7 @@
         tools:src="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/displayName"
+        android:id="@+id/Usernametv"
         android:layout_width="wrap_content"
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
