@@ -39,6 +39,8 @@ public class CreateAccountActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = Emailtv.getText().toString();
                 String password = Passwordtv.getText().toString();
+
+
                 newUser(username, password);
             }
         });

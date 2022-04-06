@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".LoginActivity"
     android:background="#FFE184">
@@ -38,6 +38,7 @@
         android:layout_marginTop="40dp"
         android:drawableStart="@drawable/ic_baseline_supervised_user_circle_24"
         android:hint="Username"
+        android:fontFamily="serif"
         android:textColor="#6aa84f"
         android:selectAllOnFocus="true"
         android:singleLine="true"
@@ -54,6 +55,7 @@
         android:textColor="#6aa84f"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:hint="Password"
+        android:fontFamily="serif"
         android:inputType="textPassword" />
 
     <Button
@@ -63,15 +65,16 @@
         android:layout_marginStart="159dp"
         android:layout_marginTop="40dp"
         android:text=" Login  "
+        android:fontFamily="serif"
         android:background="#174C4F"/>
 
     <Button
         android:id="@+id/createAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="10dp"
-        android:text="Sign Up"
+        android:text="Let's Get Saving!"
         android:background="#174C4F"/>
 
 </LinearLayout>

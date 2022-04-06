@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#FFE184"
+        android:background="#CC5C28"
         app:menu="@menu/bottom_navigation" />
 
 </RelativeLayout>
