@@ -38,7 +38,6 @@ import java.util.List;
  */
 public class HomeFragment extends Fragment {
 
-    BarChart barChart;
     public static final String TAG = "HomeFragment";
     private RecyclerView rvHome;
     private HomeAdapter adapter;
@@ -62,12 +61,6 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        barChart = (BarChart) view.findViewById(R.id.barChart);
-
-        ArrayList<BarEntry> bars = new ArrayList<>();
-        bars.add(new BarEntry(1, 2));
-        bars.add(new BarEntry(2,5));
 
         rvHome = view.findViewById(R.id.rvHome);
 
